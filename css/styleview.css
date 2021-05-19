@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Trirong');
+
+
+body{
+	margin: 0px;
+}
+
+header{
+	background: black;
+	color: white;
+	padding: 8px 20px 6px 40px;
+	height: 50px;
+}
+
+header h1{
+	display: inline;
+	font-family: "Trirong", serif;
+	font-weight: 400;
+	font-size: 32px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+
+nav ul {
+	display: inline;
+	padding: 0px;
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	color: black;
+	
+	margin-left: 12px;
+	
+
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;	
+}
+
+
+nav ul ul{
+	display: none;
+	position: absolute;
+}
+
+#navli ul li ul:hovar{
+	visibility: visible;
+	display: block;
+}
+
+
+
+
+
+#navli{
+	font-family: "Trirong", serif;
+}
+
+.homered{
+	background-color:gray;
+	padding: 30px 10px 22px 10px;
+}
+
+.divider{
+	background-color: black;
+	height: 5px;
+}
+
+.homeblack:hover{
+	padding: 30px 10px 21px 10px;
+
+}
+
+table {
+margin: 10px;
+ 
+  width: 100%;
+  font-family: "Trirong", serif;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: white;}
+tr:hover {background-color:grey;}
+
+th {
+  background-color: grey;
+  color: black;
+}
+
+.footer{
+	height: 5rem;
+	background-color: #3b173da8;
+	margin-top: auto;
+  }
+  .footer p{
+	color: white;
+	text-align: center;
+	line-height: 5rem;
+  }
+  .BTT{
+	float: right;
+  }
